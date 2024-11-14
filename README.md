@@ -7,7 +7,7 @@ Este proyecto incluye dos endpoints REST para cifrar y descifrar texto mediante 
 Para ejecutar el proyecto, sigue los siguientes pasos:
 
 1. Clonar o descargar este repositorio.
-2. Ejecutar el comando:  
+2. Ejecutar desde la consola posicionados en la carpeta del proyecto(a la misma altura donde se encuentra el dockerfile) el comando:  
    `docker build -t proyecto .`
 3. Ejecutar el comando:  
    `docker run -p 9090:8080 --name contenedor proyecto`
